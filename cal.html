@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Conventer of money</title>
+  <link href="http://www.mediafire.com/convkey/90f4/vsn4l9w7plam3yyzg.jpg" rel="shortcut icon">
+  <link rel="stylesheet" href="cal.css">
+     
+ </head>
+ <body>
+  <div class="page">     
+   <div class="head">
+    <h1>Hello to My Converter</h1>   
+   </div>
+   <div class="title"> 
+    <h2>with my converter you can calculate your dollars to egyption money</h2>
+   </div>
+   <div class="convert">
+    <p>
+     <label id="us">USD </label>
+      <input id="inputUSD" type="number" placeholder="USD"
+      oninput="priceConverter(this.value)" onchange="priceConverter(this.value)">
+    </p>
+    <p>
+     <label id="eg">EGP:</label><span id="outputEPG"></span></p>
+   </div> 
+   <div class="pic">
+    <img src="http://www.mediafire.com/convkey/90f4/vsn4l9w7plam3yyzg.jpg">
+   </div>
+   <div class="fot">
+   </div>
+  </div>  
+  <script src="cal.js"></script>    
+ </body>
+</html>
